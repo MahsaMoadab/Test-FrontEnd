@@ -1,0 +1,288 @@
+@font-face {
+    font-family: Parastoo;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../font/Parastoo-Bold-FD.woff');
+}
+
+@font-face {
+    font-family: BoldParastoo;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/Parastoo-Bold-FD.woff') format('woff') /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+/*-----------------------------------------------------*/
+.banner{
+    width: 100%;
+    height: 450px;
+    background-color: #46A843;
+}
+
+.banner .logo{
+    width: 140px;
+    height: 125px;
+    background-color: white;
+    position:absolute; 
+    top:0px;
+    left: 1250px;
+}
+
+.banner .logo img{
+    width: 120px;
+    height: 110px;
+    padding-left: 16px;
+}
+.banner img{
+    height: 450px;
+}
+
+body{
+    background-color: #46A843;
+    font-family: Parastoo;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 375px and up) */
+@media only screen and (min-width: 360px) {
+    .banner .logo{
+        width: 90px;
+        height: 100px;
+        left: 280px;
+    }
+    
+    .banner .logo img{
+        width: 88px;
+        height: 90px;
+        padding:0px 10px;
+    }
+
+    .menu{
+        margin-top: 30px;
+        height: 70px;
+        width: 295px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .tv{
+        width:280px; 
+        height:auto;
+         background-color:white;
+         margin:0px auto; 
+    }
+
+    .menu nav .nav-item .menu-link{
+        padding: 16px 19px;
+        font-size: 14px;
+        text-align: right;
+    }
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner .logo{
+        width: 90px;
+        height: 100px;
+        left: 500px;
+    }
+    
+    .banner .logo img{
+        width: 88px;
+        height: 90px;
+        padding:0px 10px;
+    }
+
+
+
+    .menu{
+        margin-top: 30px;
+        height: 70px;
+        width: 595px;
+    }
+
+    .my-col{
+        padding-left:35px;
+
+    }
+
+    .tv{
+        width:554px; 
+        height:auto;
+         background-color:white;
+         margin:0px auto; 
+    }
+
+    .menu nav .nav-item .menu-link{
+        padding: 25px 46px;
+        font-size: 14px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .banner .logo{
+        left: 670px;
+    }
+
+    .menu{
+        margin-top: 30px;
+        height: 70px;
+        width: 690px;
+    }
+
+    .my-col{
+        padding-left:15px;
+        padding-right: 15px;
+    }
+
+    .tv{
+        width:656px; 
+        height:auto;
+         background-color:white;
+         margin:0px auto; 
+    }
+
+    .menu nav .nav-item .menu-link{
+        padding: 24px 63px;
+        font-size: 14px;
+    }
+    
+  } 
+  
+  /*-------------------------------------*/
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .banner .logo{
+        width: 120px;
+        height: 125px;
+        background-color: white;
+        position:absolute; 
+    }
+    
+    .banner .logo img{
+        width: 120px;
+        height: 110px;
+        padding-left: 16px;
+    }
+
+    .banner .logo{
+        left: 920px;
+    }
+    .tv{
+        width:799px; 
+        height:auto;
+         background-color:white;
+         margin:0 auto; 
+         padding-left: 10px;
+    }
+
+    .menu{
+        margin-top: 30px;
+        height: 70px;
+        width: 100%;
+    }
+    .menu nav .nav-item .menu-link{
+        color: white;
+        text-align: center;
+        padding: 20px 80px;
+        text-decoration: none;
+        font-size: 16px;
+        background-color: #46A843;
+        float: right;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1280px) {
+    .banner .logo{
+        width: 140px;
+        height: 125px;
+        background-color: white;
+        position:absolute; 
+        top:0px;
+        left: 1200px;
+    }
+    
+    .banner .logo img{
+        width: 120px;
+        height: 110px;
+        padding-left: 16px;
+    }
+
+    .banner .logo{
+        left: 1200px;
+    }
+    .tv{
+        width:799px; 
+        height:auto;
+         background-color:white;
+         margin:0 auto; 
+         padding-left: 10px;
+    }
+
+    .menu{
+        margin-top: 30px;
+        height: 70px;
+        width: 100%;
+    }
+    .menu nav .nav-item .menu-link{
+        color: white;
+        text-align: center;
+        padding: 20px 80px;
+        text-decoration: none;
+        font-size: 16px;
+        background-color: #46A843;
+        float: right;
+    }
+  }
+
+
+
+
+  a:hover{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.menu nav .nav-item .active{
+	color:#46A843;
+	text-decoration: none;
+    background-color:white;
+}
+
+.main{
+    width: 100%;
+    background-color: white;
+    margin:20px 50px;
+}
+
+
+
+.tv-card{
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    padding: 15px;
+    width: 78px;
+    display: block;
+}
+
+.tv .row span{
+    width: 78px;
+    color: #6e6e6e;
+    text-align: center;
+    direction: rtl;
+    margin-top: 15px;
+    font-size: 12px;
+    float: right;
+}
+
+.my-row{
+    padding: 30px 60px;
+     display: flex; 
+     justify-content: space-between; 
+     direction: rtl;
+}
